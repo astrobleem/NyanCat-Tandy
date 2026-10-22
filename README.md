@@ -36,7 +36,7 @@ The published executable was run in DOSBox-X using `machine=tandy`, `cputype=808
 
 ## Credits and licenses
 
-- Original NyanCat-XT source and project attribution: [OlivierP-To8/NyanCat-XT](https://github.com/OlivierP-To8/NyanCat-XT), licensed under GPL-3.0-or-later as retained in [`LICENSE`](LICENSE).
+- Original NyanCat-XT source and project attribution: [OlivierP-To8/NyanCat-XT](https://github.com/OlivierP-To8/NyanCat-XT), licensed under GPL-3.0 as retained in [`LICENSE`](LICENSE).
 - Vendored static-score/PSG subset: [astrobleem/libtandy](https://github.com/astrobleem/libtandy), MIT licensed. The pinned source commit, file manifest, and adapter notes are in [`third_party/libtandy/README.md`](third_party/libtandy/README.md) and [`third_party/libtandy/MANIFEST-SHA256.txt`](third_party/libtandy/MANIFEST-SHA256.txt); see its included `LICENSE`.
 - The static note and percussion events are based on Tyler's "Nyan Cat" MIDI listing on VGMusic; the source URL and arrangement notes are preserved in [`SRC/TANDY.C`](SRC/TANDY.C).
 
