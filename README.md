@@ -18,7 +18,7 @@ The executable is 88,768 bytes. SHA-256: `AD8219CE2663910A0600E1D15F56CBDEED9659
 - `/fps:1` through `/fps:30` selects the animation frame rate (default 15). The Tandy music scheduler runs at 60 Hz independently of the requested video rate.
 - The original `/dsp:` and `/dma:` options remain available for the Sound Blaster path.
 
-The Tandy renderer is custom application code. LibTandy is used for score scheduling and PSG/audio output only; it does not provide graphics. The score plays the MIDI-derived intro once and then repeats the complete A/B phrase. It uses all three PSG tone channels, noise percussion, and short PC-speaker kick accents when the speaker gate is available. The Tandy mode can run without a Sound Blaster.
+This build uses LibTandy for score scheduling and PSG/audio output; its graphics renderer remains custom application code. The score plays the MIDI-derived intro once and then repeats the complete A/B phrase. It uses all three PSG tone channels, noise percussion, and short PC-speaker kick accents when the speaker gate is available. The Tandy mode can run without a Sound Blaster.
 
 ## Build
 
